@@ -1,269 +1,243 @@
 {
-    "teachers": [
-      {
-        "id": 1,
-        "name": "Cassie Tesauro",
-        "email": "cassie@school.com"
-      },
-      {
-        "id": 2,
-        "name": "Erin Truman",
-        "email": "erin@school.com"
-      }
-    ],
-    "students": [
-      {
-        "id": 1,
-        "name": "Lauren Branch",
-        "teacherId": 1,
-        "mapMath": 180,
-        "mapReading": 160,
-        "tla": "Q",
-        "rocketmath": "R",
-        "writing": "Lauren can write a six sentence paragraph.  Her strength is grammar.  Her area for growth is adding more adjectives.",
-        "socialEmotional": "Lauren has many friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
-      },
-      {
-        "id": 2,
-        "name": "Awa Colley",
-        "teacherId": 2,
-        "mapMath": 150,
-        "mapReading": 140,
-        "tla": "M",
-        "rocketmath": "L",
-        "writing": "Awa can write an eight sentence paragraph.  Her strength is handwriting.  Her area for growth is editing.",
-        "socialEmotional": "Awa has a small group of friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
-      },
-      {
-        "id": 3,
-        "name": "Aileen Garcia Duenez",
-        "teacherId": 1,
-        "mapMath": 130,
-        "mapReading": 150,
-        "tla": "K",
-        "rocketmath": "F",
-        "writing": "Aileen can write a four sentence paragraph.  Her strength is planning.  Her area for growth is adding a conclusion sentence.",
-        "socialEmotional": "aileen has many friends.  She occasionally get distracted and talks during lessons.  She is able to quickly calm herself when upset."
-      },
-      {
-        "id": 4,
-        "name": "Amy Ghali",
-        "teacherId": 2,
-        "mapMath": 180,
-        "mapReading": 140,
-        "tla": "S",
-        "rocketmath": "T",
-        "writing": "Amy can write a ten sentence paragraph.  Her strength is grammar.  Her area for growth is handwriting.",
-        "socialEmotional": "Amy has many friends.  She has recently had a hard time focusing.  She should start meeting with guidance to help with her emotions."
-      },
-      {
-        "id": 5,
-        "name": "Marley Girgis",
-        "teacherId": 1,
-        "mapMath": 130,
-        "mapReading": 140,
-        "tla": "K",
-        "rocketmath": "O",
-        "writing": "Marley can write a five sentence paragraph.  Her strength is spelling sight words.  Her area for growth is grammar.",
-        "socialEmotional": "Marley has several friends.  She easily follows rules and procedures.  She sometimes struggles to calm herself when upset."
-      },
-      {
-        "id": 6,
-        "name": "Annanya Haile",
-        "teacherId": 2,
-        "mapMath": 150,
-        "mapReading": 110,
-        "tla": "E",
-        "rocketmath": "M",
-        "writing": "Annanya can write a five sentence paragrapgh with assistance.  His strength is verbal planning.  His area for growth is writing independently.",
-        "socialEmotional": "Annanya has many friends.  He sometimes follows rules and procedures.  He is able to quickly calm himself when upset."
-      },
-      {
-        "id": 7,
-        "name": "Fernando Mata",
-        "teacherId": 1,
-        "mapMath":100,
-        "mapReading": 110,
-        "tla": "D",
-        "rocketmath": "C",
-        "writing": "Fernando can write one ful sentence with assistance.  His strength is planning recall.  His area for improvement is structure.",
-        "socialEmotional": "Fernando has a few friends.  He responds to postiive reinforcement for rules and procedures.  He is unable to self-soothe and requires adult help when upset."
-      },
-      {
-        "id": 8,
-        "name": "Jordan Mendez Wagner",
-        "teacherId": 2,
-        "mapMath": 190,
-        "mapReading": 190,
-        "tla": "T",
-        "rocketmath": "W",
-        "writing": "Jordan can write a ten sentence paragraph.  His strength is structure.  His area for growth is adding more adjectives.",
-        "socialEmotional": "Jordan has some friends.  He easily follows rules and procedures.  He uses the calm-down corner when upset."
-      },
-      {
-        "id": 9,
-        "name": "Pavli Sedek",
-        "teacherId": 1,
-        "mapMath": 160,
-        "mapReading": 170,
-        "tla": "Q",
-        "rocketmath": "R",
-        "writing": "Pavli can write a six sentence paragraph.  His strength is grammar.  His area for growth is adding more adjectives.",
-        "socialEmotional": "Pavli has many friends.  He easily follows most rules and procedures but talks during quiet time.  He is able to quickly calm himself when upset."
-      },
-      {
-        "id": 10,
-        "name": "Charlotte Robles Cedeno",
-        "teacherId": 2,
-        "mapMath": 180,
-        "mapReading": 150,
-        "tla": "M",
-        "rocketmath": "S",
-        "writing": "Charly can write a ten sentence paragraph.  Her strength is handwriting.  Her area for growth is adding more adverbs.",
-        "socialEmotional": "Charly has many friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
-      }
-      
-    ],
-    "parents": [
-      {
-        "id": 1,
-        "studentId": 1,
-        "parentName": "Lou Branch",
-        "parentPhone": "111-111-1111",
-        "primaryContact": true
-      },
-      {
-        "id": 2,
-        "studentId": 1,
-        "parentName": "Lisa Branch",
-        "parentPhone": "222-222-2222",
-        "primaryContact": false
-      },
-      {
-        "id": 3,
-        "studentId": 2,
-        "parentName": "Anna Colley",
-        "parentPhone": "333-333-3333",
-        "primaryContact": true
-      },
-      {
-        "id": 4,
-        "studentId": 2,
-        "parentName": "Abraham Colley",
-        "parentPhone": "444-444-4444",
-        "primaryContact": false
-      },
-      {
-        "id": 5,
-        "studentId": 3,
-        "parentName": "Alison Duenez",
-        "parentPhone": "555-555-5555",
-        "primaryContact": true
-      },
-      {
-        "id": 6,
-        "studentId": 3,
-        "parentName": "Anthony Garcia",
-        "parentPhone": "666-666-6666",
-        "primaryContact": false
-      },
-      {
-        "id": 7,
-        "studentId": 4,
-        "parentName": "Alice Ghali.",
-        "parentPhone": "777-777-7777",
-        "primaryContact": true
-      },
-      {
-        "id": 8,
-        "studentId": 4,
-        "parentName": "Andy Ghali",
-        "parentPhone": "888-888-8888",
-        "primaryContact": false
-      },
-      {
-        "id": 9,
-        "studentId": 5,
-        "parentName": "Mary Girgis",
-        "parentPhone": "999-999-9999",
-        "primaryContact": true
-      },
-      {
-        "id": 10,
-        "studentId": 5,
-        "parentName": "Marlon Girgis",
-        "parentPhone": "121-121-1122",
-        "primaryContact": false
-      },
-      {
-        "id": 11,
-        "studentId": 6,
-        "parentName": "Adam Haile",
-        "parentPhone": "131-131-1133",
-        "primaryContact": true
-      },
-      {
-        "id": 12,
-        "studentId": 6,
-        "parentName": "Alyssa Haile",
-        "parentPhone": "141-141-1144",
-        "primaryContact": false
-      },
-      {
-        "id": 13,
-        "studentId": 7,
-        "parentName": "Francie Mata",
-        "parentPhone": "151-151-1155",
-        "primaryContact": true
-      },
-      {
-        "id": 14,
-        "studentId": 7,
-        "parentName": "Frank Mata",
-        "parentPhone": "161-161-1166",
-        "primaryContact": false
-      },
-      {
-        "id": 15,
-        "studentId": 8,
-        "parentName": "Jayla Wagner",
-        "parentPhone": "171-171-1177",
-        "primaryContact": true
-      },
-      {
-        "id": 16,
-        "studentId": 8,
-        "parentName": "Jose Mendez",
-        "parentPhone": "181-181-1188",
-        "primaryContact": false
-      },
-      {
-        "id": 17,
-        "studentId": 9,
-        "parentName": "Peter Sedek",
-        "parentPhone": "191-191-1199",
-        "primaryContact": true
-      },
-      {
-        "id": 18,
-        "studentId": 9,
-        "parentName": "Patricia Sedek",
-        "parentPhone": "212-212-2211",
-        "primaryContact": false
-      },
-      {
-        "id": 19,
-        "studentId": 10,
-        "parentName": "Charles Robles",
-        "parentPhone": "313-313-3311",
-        "primaryContact": true
-      },
-      {
-        "id": 20,
-        "studentId": 10,
-        "parentName": "Chelsea Cedeno",
-        "parentPhone": "414-414-4411",
-        "primaryContact": false
-      }
-    ]
-  }
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Cassie Tesauro",
+      "email": "cassie@school.com"
+    },
+    {
+      "id": 2,
+      "name": "Erin Truman",
+      "email": "erin@school.com"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Lauren Branch",
+      "teacherId": 1,
+      "mapMath": 180,
+      "mapReading": 160,
+      "tla": "Q",
+      "rocketmath": "R",
+      "writing": "Lauren can write a six sentence paragraph.  Her strength is grammar.  Her area for growth is adding more adjectives.",
+      "socialEmotional": "Lauren has many friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
+    },
+    {
+      "name": "Awa Colley",
+      "teacherId": 2,
+      "mapMath": "160",
+      "mapReading": "150",
+      "tla": "M",
+      "rocketmath": "P",
+      "writing": "Awa is a strong writer.",
+      "socialEmotional": "Awa is less shy this year and gets along with others.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Aileen Garcia Duenez",
+      "teacherId": 1,
+      "mapMath": 130,
+      "mapReading": 150,
+      "tla": "K",
+      "rocketmath": "F",
+      "writing": "Aileen can write a four sentence paragraph.  Her strength is planning.  Her area for growth is adding a conclusion sentence.",
+      "socialEmotional": "aileen has many friends.  She occasionally get distracted and talks during lessons.  She is able to quickly calm herself when upset."
+    },
+    {
+      "id": 4,
+      "name": "Amy Ghali",
+      "teacherId": 2,
+      "mapMath": "170",
+      "mapReading": "180",
+      "tla": "R",
+      "rocketmath": "L",
+      "writing": "Amy is a good writer but doesn't put in effort if she isn't interested in the topic.",
+      "socialEmotional": "Amy is more talkative this year but is hand;ing"
+    },
+    {
+      "id": 5,
+      "name": "Marley Girgis",
+      "teacherId": 1,
+      "mapMath": 130,
+      "mapReading": 140,
+      "tla": "K",
+      "rocketmath": "O",
+      "writing": "Marley can write a five sentence paragraph.  Her strength is spelling sight words.  Her area for growth is grammar.",
+      "socialEmotional": "Marley has several friends.  She easily follows rules and procedures.  She sometimes struggles to calm herself when upset."
+    },
+    {
+      "id": 7,
+      "name": "Fernando Mata",
+      "teacherId": 1,
+      "mapMath": 100,
+      "mapReading": 110,
+      "tla": "D",
+      "rocketmath": "C",
+      "writing": "Fernando can write one ful sentence with assistance.  His strength is planning recall.  His area for improvement is structure.",
+      "socialEmotional": "Fernando has a few friends.  He responds to postiive reinforcement for rules and procedures.  He is unable to self-soothe and requires adult help when upset."
+    },
+    {
+      "id": 9,
+      "name": "Pavli Sedek",
+      "teacherId": 1,
+      "mapMath": 160,
+      "mapReading": 170,
+      "tla": "Q",
+      "rocketmath": "R",
+      "writing": "Pavli can write a six sentence paragraph.  His strength is grammar.  His area for growth is adding more adjectives.",
+      "socialEmotional": "Pavli has many friends.  He easily follows most rules and procedures but talks during quiet time.  He is able to quickly calm himself when upset."
+    },
+    {
+      "id": 10,
+      "name": "Charlotte Robles Cedeno",
+      "teacherId": 2,
+      "mapMath": 180,
+      "mapReading": 150,
+      "tla": "M",
+      "rocketmath": "S",
+      "writing": "Charly can write a ten sentence paragraph.  Her strength is handwriting.  Her area for growth is adding more adverbs.",
+      "socialEmotional": "Charly has many friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
+    },
+    {
+      "name": "Tester McTester",
+      "teacherId": 1,
+      "mapMath": "math map",
+      "mapReading": "read map",
+      "tla": "tla input",
+      "rocketmath": "rocket math input",
+      "writing": "writing input",
+      "socialEmotional": "soemo input",
+      "id": 11
+    }
+  ],
+  "parents": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "parentName": "Lou Branch",
+      "parentPhone": "111-111-1111",
+      "primaryContact": true
+    },
+    {
+      "id": 2,
+      "studentId": 1,
+      "parentName": "Lisa Branch",
+      "parentPhone": "222-222-2222",
+      "primaryContact": false
+    },
+    {
+      "parentName": "Anna Colley",
+      "studentId": 2,
+      "primaryContact": false,
+      "parentPhone": "333-333-3333",
+      "id": 3
+    },
+    {
+      "parentName": "EDITAbraham Colley",
+      "studentId": 2,
+      "primaryContact": true,
+      "parentPhone": "444-444-4444",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "studentId": 3,
+      "parentName": "Alison Duenez",
+      "parentPhone": "555-555-5555",
+      "primaryContact": true
+    },
+    {
+      "id": 6,
+      "studentId": 3,
+      "parentName": "Anthony Garcia",
+      "parentPhone": "666-666-6666",
+      "primaryContact": false
+    },
+    {
+      "id": 7,
+      "studentId": 4,
+      "parentName": "Alice Ghali",
+      "parentPhone": "777-777-7777",
+      "primaryContact": true
+    },
+    {
+      "id": 8,
+      "studentId": 4,
+      "parentName": "Aaron Ghali",
+      "parentPhone": "888-888-8888",
+      "primaryContact": false
+    },
+    {
+      "id": 9,
+      "studentId": 5,
+      "parentName": "Mary Girgis",
+      "parentPhone": "999-999-9999",
+      "primaryContact": true
+    },
+    {
+      "id": 10,
+      "studentId": 5,
+      "parentName": "Marlon Girgis",
+      "parentPhone": "121-121-1122",
+      "primaryContact": false
+    },
+    {
+      "id": 13,
+      "studentId": 7,
+      "parentName": "Francie Mata",
+      "parentPhone": "151-151-1155",
+      "primaryContact": true
+    },
+    {
+      "id": 14,
+      "studentId": 7,
+      "parentName": "Frank Mata",
+      "parentPhone": "161-161-1166",
+      "primaryContact": false
+    },
+    {
+      "id": 17,
+      "studentId": 9,
+      "parentName": "Peter Sedek",
+      "parentPhone": "191-191-1199",
+      "primaryContact": true
+    },
+    {
+      "id": 18,
+      "studentId": 9,
+      "parentName": "Patricia Sedek",
+      "parentPhone": "212-212-2211",
+      "primaryContact": false
+    },
+    {
+      "id": 19,
+      "studentId": 10,
+      "parentName": "Charles Robles",
+      "parentPhone": "313-313-3311",
+      "primaryContact": true
+    },
+    {
+      "id": 20,
+      "studentId": 10,
+      "parentName": "Chelsea Cedeno",
+      "parentPhone": "414-414-4411",
+      "primaryContact": false
+    },
+    {
+      "studentId": 9,
+      "parentName": "Testington Tester",
+      "primaryContact": true,
+      "parentPhone": "999-888-7777",
+      "id": 21
+    },
+    {
+      "studentId": 9,
+      "parentName": "Testina Tester",
+      "primaryContact": false,
+      "parentPhone": "555-444-3333",
+      "id": 22
+    }
+  ]
+}
