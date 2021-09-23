@@ -14,7 +14,7 @@
   "students": [
     {
       "id": 1,
-      "name": "Lauren Branch",
+      "name": "Lauren M. Branch",
       "teacherId": 1,
       "mapMath": 180,
       "mapReading": 160,
@@ -57,18 +57,7 @@
       "socialEmotional": "Amy is more talkative this year but is hand;ing"
     },
     {
-      "id": 5,
-      "name": "Marley Girgis",
-      "teacherId": 1,
-      "mapMath": 130,
-      "mapReading": 140,
-      "tla": "K",
-      "rocketmath": "O",
-      "writing": "Marley can write a five sentence paragraph.  Her strength is spelling sight words.  Her area for growth is grammar.",
-      "socialEmotional": "Marley has several friends.  She easily follows rules and procedures.  She sometimes struggles to calm herself when upset."
-    },
-    {
-      "id": 7,
+      "id": 6,
       "name": "Fernando Mata",
       "teacherId": 1,
       "mapMath": 100,
@@ -79,18 +68,7 @@
       "socialEmotional": "Fernando has a few friends.  He responds to postiive reinforcement for rules and procedures.  He is unable to self-soothe and requires adult help when upset."
     },
     {
-      "id": 9,
-      "name": "Pavli Sedek",
-      "teacherId": 1,
-      "mapMath": 160,
-      "mapReading": 170,
-      "tla": "Q",
-      "rocketmath": "R",
-      "writing": "Pavli can write a six sentence paragraph.  His strength is grammar.  His area for growth is adding more adjectives.",
-      "socialEmotional": "Pavli has many friends.  He easily follows most rules and procedures but talks during quiet time.  He is able to quickly calm himself when upset."
-    },
-    {
-      "id": 10,
+      "id": 7,
       "name": "Charlotte Robles Cedeno",
       "teacherId": 2,
       "mapMath": 180,
@@ -101,7 +79,7 @@
       "socialEmotional": "Charly has many friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
     },
     {
-      "name": "Tester McTester",
+      "name": "Pavli Sedek",
       "teacherId": 1,
       "mapMath": "math map",
       "mapReading": "read map",
@@ -109,7 +87,29 @@
       "rocketmath": "rocket math input",
       "writing": "writing input",
       "socialEmotional": "soemo input",
-      "id": 11
+      "id": 8
+    },
+    {
+      "name": "Selah Smith",
+      "teacherId": 1,
+      "mapMath": "math map",
+      "mapReading": "read map",
+      "tla": "tla input",
+      "rocketmath": "rocket math input",
+      "writing": "writing input",
+      "socialEmotional": "soemo input",
+      "id": 9
+    },
+    {
+      "name": "Marley Z. Girgis",
+      "teacherId": 1,
+      "mapMath": "math map",
+      "mapReading": "read map",
+      "tla": "tla input",
+      "rocketmath": "rocket math input",
+      "writing": "writing input",
+      "socialEmotional": "soemo input",
+      "id": 10
     }
   ],
   "parents": [
@@ -170,74 +170,74 @@
       "primaryContact": false
     },
     {
-      "id": 9,
-      "studentId": 5,
-      "parentName": "Mary Girgis",
-      "parentPhone": "999-999-9999",
-      "primaryContact": true
-    },
-    {
-      "id": 10,
-      "studentId": 5,
-      "parentName": "Marlon Girgis",
-      "parentPhone": "121-121-1122",
-      "primaryContact": false
-    },
-    {
-      "id": 13,
-      "studentId": 7,
+      "id": 11,
+      "studentId": 6,
       "parentName": "Francie Mata",
       "parentPhone": "151-151-1155",
       "primaryContact": true
     },
     {
-      "id": 14,
-      "studentId": 7,
+      "id": 12,
+      "studentId": 6,
       "parentName": "Frank Mata",
       "parentPhone": "161-161-1166",
       "primaryContact": false
     },
     {
-      "id": 17,
-      "studentId": 9,
-      "parentName": "Peter Sedek",
-      "parentPhone": "191-191-1199",
-      "primaryContact": true
-    },
-    {
-      "id": 18,
-      "studentId": 9,
-      "parentName": "Patricia Sedek",
-      "parentPhone": "212-212-2211",
-      "primaryContact": false
-    },
-    {
-      "id": 19,
-      "studentId": 10,
+      "id": 13,
+      "studentId": 7,
       "parentName": "Charles Robles",
       "parentPhone": "313-313-3311",
       "primaryContact": true
     },
     {
-      "id": 20,
-      "studentId": 10,
+      "id": 14,
+      "studentId": 7,
       "parentName": "Chelsea Cedeno",
       "parentPhone": "414-414-4411",
       "primaryContact": false
     },
     {
-      "studentId": 9,
-      "parentName": "Testington Tester",
+      "studentId": 8,
+      "parentName": "Paul Sedek",
       "primaryContact": true,
-      "parentPhone": "999-888-7777",
-      "id": 21
+      "parentPhone": "444-999-0000",
+      "id": 15
+    },
+    {
+      "studentId": 8,
+      "parentName": "Polly Sedek",
+      "primaryContact": false,
+      "parentPhone": "000-333-7878",
+      "id": 16
     },
     {
       "studentId": 9,
-      "parentName": "Testina Tester",
+      "parentName": "Shawn Smith",
+      "primaryContact": true,
+      "parentPhone": "999-090-0909",
+      "id": 17
+    },
+    {
+      "studentId": 9,
+      "parentName": "",
+      "primaryContact": false,
+      "parentPhone": "",
+      "id": 18
+    },
+    {
+      "studentId": 10,
+      "parentName": "Mary Z. Girgis",
+      "primaryContact": true,
+      "parentPhone": "999-888-7777",
+      "id": 19
+    },
+    {
+      "studentId": 10,
+      "parentName": "Marlon Z. Girgis",
       "primaryContact": false,
       "parentPhone": "555-444-3333",
-      "id": 22
+      "id": 20
     }
   ]
 }
