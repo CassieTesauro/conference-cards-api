@@ -13,17 +13,6 @@
   ],
   "students": [
     {
-      "id": 1,
-      "name": "Lauren M. Branch",
-      "teacherId": 1,
-      "mapMath": 180,
-      "mapReading": 160,
-      "tla": "Q",
-      "rocketmath": "R",
-      "writing": "Lauren can write a six sentence paragraph.  Her strength is grammar.  Her area for growth is adding more adjectives.",
-      "socialEmotional": "Lauren has many friends.  She easily follows rules and procedures.  She is able to quickly calm herself when upset."
-    },
-    {
       "name": "Awa Colley",
       "teacherId": 2,
       "mapMath": "160",
@@ -35,17 +24,6 @@
       "id": 2
     },
     {
-      "id": 3,
-      "name": "Aileen Garcia Duenez",
-      "teacherId": 1,
-      "mapMath": 130,
-      "mapReading": 150,
-      "tla": "K",
-      "rocketmath": "F",
-      "writing": "Aileen can write a four sentence paragraph.  Her strength is planning.  Her area for growth is adding a conclusion sentence.",
-      "socialEmotional": "aileen has many friends.  She occasionally get distracted and talks during lessons.  She is able to quickly calm herself when upset."
-    },
-    {
       "id": 4,
       "name": "Amy Ghali",
       "teacherId": 2,
@@ -55,17 +33,6 @@
       "rocketmath": "L",
       "writing": "Amy is a good writer but doesn't put in effort if she isn't interested in the topic.",
       "socialEmotional": "Amy is more talkative this year but is hand;ing"
-    },
-    {
-      "id": 6,
-      "name": "Fernando Mata",
-      "teacherId": 1,
-      "mapMath": 100,
-      "mapReading": 110,
-      "tla": "D",
-      "rocketmath": "C",
-      "writing": "Fernando can write one ful sentence with assistance.  His strength is planning recall.  His area for improvement is structure.",
-      "socialEmotional": "Fernando has a few friends.  He responds to postiive reinforcement for rules and procedures.  He is unable to self-soothe and requires adult help when upset."
     },
     {
       "id": 7,
@@ -103,30 +70,16 @@
     {
       "name": "Marley Z. Girgis",
       "teacherId": 1,
-      "mapMath": "math map",
-      "mapReading": "read map",
-      "tla": "tla input",
-      "rocketmath": "rocket math input",
+      "mapMath": "200",
+      "mapReading": "180",
+      "tla": "M",
+      "rocketmath": "L",
       "writing": "writing input",
       "socialEmotional": "soemo input",
       "id": 10
     }
   ],
   "parents": [
-    {
-      "id": 1,
-      "studentId": 1,
-      "parentName": "Lou Branch",
-      "parentPhone": "111-111-1111",
-      "primaryContact": true
-    },
-    {
-      "id": 2,
-      "studentId": 1,
-      "parentName": "Lisa Branch",
-      "parentPhone": "222-222-2222",
-      "primaryContact": false
-    },
     {
       "parentName": "Anna Colley",
       "studentId": 2,
@@ -142,20 +95,6 @@
       "id": 4
     },
     {
-      "id": 5,
-      "studentId": 3,
-      "parentName": "Alison Duenez",
-      "parentPhone": "555-555-5555",
-      "primaryContact": true
-    },
-    {
-      "id": 6,
-      "studentId": 3,
-      "parentName": "Anthony Garcia",
-      "parentPhone": "666-666-6666",
-      "primaryContact": false
-    },
-    {
       "id": 7,
       "studentId": 4,
       "parentName": "Alice Ghali",
@@ -167,20 +106,6 @@
       "studentId": 4,
       "parentName": "Aaron Ghali",
       "parentPhone": "888-888-8888",
-      "primaryContact": false
-    },
-    {
-      "id": 11,
-      "studentId": 6,
-      "parentName": "Francie Mata",
-      "parentPhone": "151-151-1155",
-      "primaryContact": true
-    },
-    {
-      "id": 12,
-      "studentId": 6,
-      "parentName": "Frank Mata",
-      "parentPhone": "161-161-1166",
       "primaryContact": false
     },
     {
